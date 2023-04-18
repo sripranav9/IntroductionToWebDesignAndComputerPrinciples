@@ -13,7 +13,7 @@ h1 {
     font-size: 75px;
     font-weight: 800;
     padding: 10px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 h2 {
@@ -114,11 +114,8 @@ nav ul li a:active {
 
 .mainSection-text {
     color: #121212;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    /* Source of <transform> code: https://stackoverflow.com/questions/46184458/transform-translate-50-50#:~:text=The%20%2D50%25%20transform%20basically%20means,that%20in%20the%20y%2Daxis. */
+    width: 45%;
+    display: block;
     text-align: center;
 }
 
@@ -142,6 +139,12 @@ nav ul li a:active {
 
 .story-text a:hover {
     color: #ffffff;
+}
+
+.bg-highlight-textbox {
+    background-color: rgba(205, 172, 129, 0.6);
+    border-radius: 8px;
+    padding: 10px;
 }
 
 .section-information {
@@ -186,6 +189,40 @@ nav ul li a:active {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+}
+
+/* For the Media page */
+
+.media {
+    min-height: 100vh;
+    background-image: url(media/group1.jpg);
+    /* background-color: rgba(56, 54, 54, 0.1); */
+    background-position: center;
+    background-size: cover;
+    position: static;
+}
+
+.images {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-card {
+    color: #ffffff;
+    background-color: rgb(23, 23, 23);
+    /* color: #121212;
+    background-color: rgba(255, 255, 255, 0.7); */
+    width:32%;
+    /* 383/253 */
+    margin-top: 20px;
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
 }
 
 footer a {
