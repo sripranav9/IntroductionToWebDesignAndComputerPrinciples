@@ -2,8 +2,22 @@
 <head>
     <title>Media</title>
     <!-- This includes the latest information about me -->
+    <!-- <link rel="stylesheet" href="desktop.css"> -->
 
-    <link rel="stylesheet" href="desktop.css">
+    <!-- Responsive stylesheet -->
+    <!-- --------------------- -->
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 485px)" href="mobile.css">
+
+    <!-- Media query for medium browser width-->
+    <link rel="stylesheet" media="only screen and (min-width: 485px) and (max-width: 960px)" href="tablet.css">
+    
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+    
+    <!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
+    <!-- --------------------- -->
 
     <!-- Link to the fonts imported from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,13 +66,13 @@
                     <img src="media/camerashoot.jpeg" class="gridImg" alt="Armaan shooting the scene for the film">
                 </article>
                 <article class="image-card4">
-                    <img src="media/candid.jpeg" class="gridImg" alt="">
+                    <img src="media/candid.jpeg" class="gridImg" alt="Candid picture of Pranav and Armaan along with Arth-E, the robot">
                 </article>
                 <article class="image-card5">
-                    <img src="media/night1.jpeg" class="gridImg" alt="Armaan shooting the scene for the film">
+                    <img src="media/night1.jpeg" class="gridImg" alt="Night sky">
                 </article>
                 <article class="image-card6">
-                    <img src="media/night2.jpeg" class="gridImg" alt="Armaan shooting the scene for the film">
+                    <img src="media/night2.jpeg" class="gridImg" alt="Night sky">
                 </article>
             </div>
         </section>

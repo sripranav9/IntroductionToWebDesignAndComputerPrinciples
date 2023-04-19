@@ -2,8 +2,22 @@
 <head>
     <title>Features</title>
     <!-- This includes the latest information about me -->
+    <!-- <link rel="stylesheet" href="desktop.css"> -->
 
-    <link rel="stylesheet" href="desktop.css">
+    <!-- Responsive stylesheet -->
+    <!-- --------------------- -->
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+    <!-- Media query for medium browser width-->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+    
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+    
+    <!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
+    <!-- --------------------- -->
 
     <!-- Link to the fonts imported from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,7 +81,7 @@
             <article class="feature-card">
                 <h3>Fineness</h3>
                 <p>
-                    Various 3D printers were used to test and achieve the best texture and quality of the wheels
+                    Various 3D printers were used to test and achieve the best texture and quality of the wheels.
                 </p>
             </article>
         </div> 
