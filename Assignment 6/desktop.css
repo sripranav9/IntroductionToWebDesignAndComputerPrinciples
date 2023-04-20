@@ -157,6 +157,7 @@ nav ul li a:active {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
+    width:100%;
 }
 
 /* For the features.html page */
