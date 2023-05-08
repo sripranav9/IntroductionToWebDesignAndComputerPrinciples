@@ -1,0 +1,84 @@
+/* Custom Stylesheet by Pranav */
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f7f4ea;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300 !important;
+}
+
+.lead.mb-4 {
+  font-weight: 100 !important;
+}
+
+/* HEADER STYLES */
+.fs-4 {
+  font-size: 18px !important;
+  /* font-weight: 550; */
+}
+.nav-link {
+  color: #284b63 !important;
+}
+
+.nav-link:hover {
+  color: #284b63b9 !important;
+}
+
+.nav-link.active{
+  background-color: #284b63 !important;
+  /* color: #f7f4ea !important; */
+  color: #ffffff !important; 
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) !important; */
+}
+
+.nav-link.active:hover {
+  background-color: #284b63cf !important;
+}
+/* HEADER STYLES END */
+
+/* HERO STYLES */
+.btn.btn-primary.btn-lg.px-4.gap-3 {
+  background-color: #284b63 !important;
+  border: solid 1px #284b63 !important;
+}
+
+.btn.btn-primary.btn-lg.px-4.gap-3:hover {
+  background-color: #284b63cf !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn.btn-outline-secondary.btn-lg.px-4{
+  border: 1px solid #121212 !important;
+  color: #121212 !important;
+}
+
+.btn.btn-outline-secondary.btn-lg.px-4:hover{
+  border: 0.5px solid #121212 !important;
+  color: #f7f4ea !important;
+  background-color: #121212;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+/* HERO STYLES */
+
+/* PROJECTS STYLES */
+.img-thumbnail{
+  padding: 50px;
+  background-color: transparent !important;
+  border: transparent !important;
+  border-radius: 70px !important;
+  max-width: 100%;
+  height: auto;
+}
