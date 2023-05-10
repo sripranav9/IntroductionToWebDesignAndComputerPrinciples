@@ -15,6 +15,12 @@ h1 {
   font-weight: 100;
 }
 
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
 p {
   font-family: 'Raleway', sans-serif;
   font-weight: 300 !important;
@@ -56,8 +62,8 @@ p {
 }
 
 .btn.btn-primary.btn-lg.px-4.gap-3:hover {
-  background-color: #284b63cf !important;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #284b63 !important;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .btn.btn-outline-secondary.btn-lg.px-4{
@@ -81,4 +87,91 @@ p {
   border-radius: 70px !important;
   max-width: 100%;
   height: auto;
+}
+
+.btn.btn-outline-secondary.btn-lg.px-4.github {
+  margin-top: 10px;
+}
+
+.text-bg-dark {
+  color: #fff!important;
+  background-color: #284b63!important;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+.bg-body-tertiary {
+  color: #fff!important;
+  background-color: #284b63!important;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+.d-md-flex.flex-md-equal {
+  font-family: 'Raleway', sans-serif;
+}
+
+.d-md-flex.flex-md-equal.w-100.my-md-3.ps-md-3 h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #f7f4ea !important;
+}
+
+.d-md-flex.flex-md-equal.w-100.my-md-3.ps-md-3 p {
+  padding-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #f7f4ea !important;
+}
+
+.bg-body-tertiary.me-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #f7f4ea !important;
+}
+
+.bg-body-tertiary.me-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden p {
+  padding-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #f7f4ea !important;
+}
+
+.btn.btn-outline-secondary.btn-lg.px-4.projkm {
+  border: 0.5px solid #121212 !important;
+  color: #f7f4ea !important;
+  background-color: #121212 !important;
+}
+
+/* Specific to Project Pages */
+
+.container.projects {
+  padding: 20px !important;
+}
+
+.img-fluid.project {
+  border-radius: 60px !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  max-height: 90vh;
+}
+
+.p-5.text-center.bg-body-tertiary.rounded-3 {
+  background-color: #d9d9d9 !important;
+}
+
+.px-4.py-5.my-5.text-center {
+  padding-bottom: 5px !important;
+  margin-bottom: 40px !important;
+}
+
+.text-body-emphasis {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.lead {
+  padding: 25px;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 400 !important;
+  color: #121212;
 }
