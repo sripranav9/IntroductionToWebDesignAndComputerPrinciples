@@ -5,6 +5,40 @@
   src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
 }
 
+@media (max-width: 480px) {
+  /* CSS styles for mobile devices */
+  .p-5 {
+    padding: 8px !important;
+  }
+  .img-fluid.project {
+    border-radius: 20px !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    max-height: 90vh;
+  }
+
+  .row>* {
+    padding-bottom: 10px !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 999px) {
+  /* CSS styles for tablets */
+  .row>* {
+    padding-bottom: 10px !important;
+  }
+  .img-fluid.project {
+    border-radius: 20px !important;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    max-height: 90vh;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  /* CSS styles for laptops */
+  /* This style.css file is meant for the same, see below. */
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #f7f4ea;
@@ -19,6 +53,11 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 50px;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
 }
 
 p {
@@ -95,7 +134,8 @@ p {
 
 .text-bg-dark {
   color: #fff!important;
-  background-color: #284b63!important;
+  /* background-color: #284b63!important; */
+  background-color: #353535!important;
   border-radius: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   margin-bottom: 15px;
@@ -103,7 +143,8 @@ p {
 
 .bg-body-tertiary {
   color: #fff!important;
-  background-color: #284b63!important;
+  /* background-color: #284b63!important; */
+  background-color: #353535!important;
   border-radius: 20px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   margin-bottom: 15px;
@@ -138,9 +179,17 @@ p {
 }
 
 .btn.btn-outline-secondary.btn-lg.px-4.projkm {
-  border: 0.5px solid #121212 !important;
+  /* border: 0.5px solid #284b63 !important; */
+  border: 0.5px solid #f7f4ea !important;
   color: #f7f4ea !important;
-  background-color: #121212 !important;
+  /* background-color: #284b63 !important; */
+  background-color: #353535 !important;
+}
+
+.btn.btn-outline-secondary.btn-lg.px-4.projkm:hover {
+  border: 0.5px solid #284b63 !important;
+  color: #f7f4ea !important;
+  background-color: #284b63 !important;
 }
 
 /* Specific to Project Pages */
@@ -150,9 +199,11 @@ p {
 }
 
 .img-fluid.project {
-  border-radius: 60px !important;
+  border-radius: 20px !important;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   max-height: 90vh;
+  min-height: 40vh;
+  object-fit:cover;
 }
 
 .p-5.text-center.bg-body-tertiary.rounded-3 {
