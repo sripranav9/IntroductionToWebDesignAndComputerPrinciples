@@ -5,6 +5,7 @@
   src: url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
 }
 
+/* Setting specific styles for different breakpoints */
 @media (max-width: 480px) {
   /* CSS styles for mobile devices */
   .p-5 {
@@ -15,9 +16,25 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     max-height: 90vh;
   }
-
   .row>* {
     padding-bottom: 10px !important;
+  }
+  .img-thumbnail{
+    margin-top: 10px !important;
+    min-height: 40vh !important;
+    object-fit:cover !important;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
+  h4 {
+    font-size: 20px !important;
+  }
+  p {
+    font-size: 15px !important;
   }
 }
 
@@ -31,7 +48,9 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     max-height: 90vh;
   }
-
+  .img-thumbnail{
+    object-fit:cover;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -91,6 +110,12 @@ p {
 
 .nav-link.active:hover {
   background-color: #284b63cf !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.nav-link.active:active {
+  background-color: #284b63cf !important;
+  box-shadow: none !important;
 }
 /* HEADER STYLES END */
 
@@ -105,6 +130,19 @@ p {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
+.btn.btn-primary.btn-lg.px-4.gap-3:active {
+  background-color: #284b63 !important;
+  box-shadow: none !important;
+}
+
+.btn.btn-primary.btn-lg.px-4.gap-3:visited {
+  background-color: #284b63 !important;
+  box-shadow: none !important;
+  color: #f7f4eabd !important;
+  text-decoration: underline !important;
+}
+
+
 .btn.btn-outline-secondary.btn-lg.px-4{
   border: 1px solid #121212 !important;
   color: #121212 !important;
@@ -116,6 +154,21 @@ p {
   background-color: #121212;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+.btn.btn-outline-secondary.btn-lg.px-4:active{
+  border: 0.5px solid #121212 !important;
+  color: #f7f4ea !important;
+  background-color: #121212;
+  box-shadow: none !important;
+}
+
+.btn.btn-outline-secondary.btn-lg.px-4:visited{
+  border: 0.5px solid #121212 !important;
+  color: #f7f4ea !important;
+  background-color: #121212;
+  box-shadow: none !important;
+  text-decoration: underline !important;
+}
 /* HERO STYLES */
 
 /* PROJECTS STYLES */
@@ -126,6 +179,8 @@ p {
   border-radius: 70px !important;
   max-width: 100%;
   height: auto;
+  width: auto;
+  object-fit:cover;
 }
 
 .btn.btn-outline-secondary.btn-lg.px-4.github {
@@ -190,6 +245,14 @@ p {
   border: 0.5px solid #284b63 !important;
   color: #f7f4ea !important;
   background-color: #284b63 !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn.btn-outline-secondary.btn-lg.px-4.projkm:active {
+  border: 0.5px solid #284b63 !important;
+  color: #f7f4ea !important;
+  background-color: #284b63 !important;
+  box-shadow: none !important;
 }
 
 /* Specific to Project Pages */
@@ -199,6 +262,8 @@ p {
 }
 
 .img-fluid.project {
+  width: auto;
+  height: auto;
   border-radius: 20px !important;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   max-height: 90vh;
